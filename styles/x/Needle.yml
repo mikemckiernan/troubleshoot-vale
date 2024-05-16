@@ -1,0 +1,11 @@
+# SPDX-FileCopyrightText: Copyright (c) 2024 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+---
+extends: substitution
+ignorecase: false
+level: error
+message: "Use '%s' rather than '%s'."
+action:
+  name: replace
+swap:
+  BIG needles: BIG Needles
